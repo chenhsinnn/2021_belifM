@@ -1,0 +1,201 @@
+@media screen and (min-width: 767px) {
+  .location_inner {
+    height: 570px;
+  }
+}
+@media (max-width: 767px){
+  .wrap_bg, .wrap {
+    max-width: none;
+    max-height: none;
+    position: static;
+    transform: translate(0, 0);
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  /* header {
+    position: absolute;
+  } */
+  .headerbg {
+    /* background-image: url(../images/headerbg.jpg); */
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+  }
+  .headerbg.active {
+    background-image: none;
+  }
+  .finish_box {
+    max-width: none;
+    max-height: none;
+  }
+  .finish_box .img2 {
+    bottom: 84%;
+    right: 10%;
+    width: 25%;
+  }
+  .wrap_content-pop, .popup_box {
+    max-width: none;
+    max-height: none;
+    top: 0;
+    left: 0;
+    transform: translate(0,0);
+  }
+  .locationbg {
+    margin-top: 30px;
+  }
+  .popup_box, .wrap, .wrap_content-pop {
+    max-width: none;
+    max-height: none;
+    transform: translate(0);
+    position: absolute;
+  }
+  .for_pc {
+    display: none;
+  }
+  .for_phone {
+    display: block;
+  }
+  .mainimg_1 {
+    /* top: calc(98 / 414 * 100vw);
+    left: calc(57 / 414 * 100vw); */
+    width: calc(300 / 414 * 100vw);
+    height: calc(301 / 414 * 100vw);
+    /* margin: -292px 0 0 -150px; */
+    /* margin: calc(-292 / 414 * 100vw) 0 0 calc(-150 / 414 * 100vw); */
+    margin: -77.777778vw 0 0 -36.23188vw;
+  }
+  .mainimg_2 {
+    /* top: calc(99 / 414 * 100vw);
+    left: calc(267 / 414 * 100vw); */
+    width: calc(105 / 414 * 100vw);
+    height: calc(151 / 414 * 100vw);
+    /* margin: -291px 0 0 60px; */
+    /* margin: calc(-291 / 414 * 100vw) 0 0 calc(60 / 414 * 100vw); */
+    margin: -77.536232vw 0 0 14.49275vw;
+  }
+  .mainimg_3 {
+    /* top: calc(241 / 414 * 100vw);
+    left: calc(39 / 414 * 100vw); */
+    width: calc(195 / 414 * 100vw);
+    height: calc(199 / 414 * 100vw);
+    /* margin: -149px 0 0 -168px; */
+    /* margin: calc(-149 / 414 * 100vw) 0 0 calc(-168 / 414 * 100vw); */
+    margin: -43.236715vw 0 0 -40.57971vw;
+  }
+  .mainimg_4 {
+    /* top: calc(280 / 414 * 100vw);
+    left: calc(282 / 414 * 100vw); */
+    width: calc(105 / 414 * 100vw);
+    height: calc(105 / 414 * 100vw);
+    /* margin: -110px 0 0 75px; */
+    /* margin: calc(-110 / 414 * 100vw) 0 0 calc(75 / 414 * 100vw); */
+    margin: -33.816425vw 0 0 18.11594vw;
+  }
+  .mainimg_5 {
+    /* top: calc(609 / 414 * 100vw);
+    left: calc(58 / 414 * 100vw); */
+    width: calc(300 / 414 * 100vw);
+    height: calc(151 / 414 * 100vw);
+    /* margin: 219px 0 0 -149px; */
+    /* margin: calc(219 / 414 * 100vw) 0 0 calc(-149 / 414 * 100vw); */
+    margin: 45.652174vw 0 0 -35.99034vw;
+  }
+}
+@media screen and (min-width: 576px) {
+  .modal .modal-dialog {
+    max-width: 380px;
+  }
+}
+
+@media screen and (min-width: 415px) {
+  .header_content h1 {
+      width: 80px;
+  }
+  .wrap_inner {
+      padding: 0 3.5% 85px 3.5%;
+  }
+  .menu, .information_pop_btn {
+    width: 35px;
+    height: 35px;
+    padding: 8px 7px;
+    border-radius: 6px;
+  }
+  .menu span {
+    margin: 5px 0;
+  }
+  .menu_select li {
+    font-size: 24px;
+  }
+  .menu_select li a {
+    padding: 10px 0;
+  }  
+  /* 查詢 */
+  .wrap_content {
+    height: calc(100% - 65px);
+  }
+  .wrap_page {
+    margin-top: 65px;
+  }
+  .word {
+    padding: 20px 0 10px 0;
+  }
+  .btn {
+    padding: 14px 8px;
+    font-size: 24px;
+  }
+  /* 活動櫃點查詢 */
+  .location_box h3 {
+    font-size: 24px;
+  }
+  .location_box h5 {
+    font-size: 14px;
+  }
+  .locationwrap_inner {
+    padding: 0 3.5%;
+  }
+  .locationwrap_page {
+    margin-top: 95px;
+  }
+  /* dm */
+  .dmwrap_content {
+    height: calc(100% - 180px);
+  }
+  .dmwrap_page {
+    margin-top: 30px;
+  }
+  /* 隱私權聲明 */
+  .static_wrap {
+    max-height: calc(780px * 0.66);
+  }
+  .wrap_privacy .information-box {
+    margin: 0 auto;
+  }
+  .wrap_pop {
+    padding: 65px 3.5% 1px 3.5%;
+  }
+  .infowrap {
+    margin-top: 23%;
+  }
+  /* 警告彈窗 */
+  .btn_enter {
+    padding: 6px 20px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 415px) {
+  .menu_select li {
+    max-width: 250px;
+  }
+  .menu_select li:hover::before{
+    width: 60px;
+    height: 50px;
+    top: -40%;
+  }
+}
+@media (max-width:320px) {
+  .activity_textbox2 {
+    padding: 2% 3%;
+  }
+}
